@@ -1,0 +1,18 @@
+&pro_micro {
+    /* Remap only the Pro Micro pins used by this shield to RP2040 GPIOs.
+     * Each entry is: <PM_PIN FLAGS &gpio0 RP2040_GPIO FLAGS>
+     * Unlisted PM pins are not remapped and must not be referenced.
+     */
+    gpio-map = <
+
+        12  0   &gpio0 12  0
+        13  0   &gpio0 13  0
+
+        18  0   &gpio0 18  0
+        22  0   &gpio0 22  0
+        26  0   &gpio0 26  0
+        27  0   &gpio0 27  0
+    >;
+};
+
+
