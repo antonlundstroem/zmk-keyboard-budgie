@@ -1,0 +1,6 @@
+if SHIELD_BUDGIE
+
+config ZMK_KEYBOARD_NAME
+    default "budgie"
+
+endif
