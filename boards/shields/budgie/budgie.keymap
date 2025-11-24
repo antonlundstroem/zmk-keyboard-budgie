@@ -42,19 +42,19 @@
 				// X+C
 				key-positions = <20 21>;
 				bindings = <&kp Z>;
-				layers = <BASE>
+				layers = <BASE>;
 			};
 			grave {
 				// X+C
 				key-positions = <20 21>;
 				bindings = <&kp GRAVE>;
-				layers = <NUM>
+				layers = <NUM>;
 			};
 			tilde {
 				// X+C
 				key-positions = <20 21>;
 				bindings = <&kp TILDE>;
-				layers = <SYM>
+				layers = <SYM>;
 			};
 	};
 
