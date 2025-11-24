@@ -29,7 +29,7 @@
 			compatible = "zmk,combos";
 			sqt {
 				// H + J
-				key-positions = <16 17>;
+				key-positions = <15 16>;
 				bindings = <&kp SQT>;
 			};
 	};
