@@ -25,13 +25,22 @@
         };
     };
 
+	combos {
+			compatible = "zmk,combos";
+			sqt {
+				// H + J
+				key-positions = <16 17>;
+				bindings = <&kp SQT>;
+			};
+	};
+
 
     keymap {
         compatible = "zmk,keymap";
         base {
             bindings = <
                 &kp Q      &kp W      &kp E       &kp R           &kp T        &kp Y            &kp U          &kp I       &kp O      &kp P
-                &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHFT F     &kp G        &kp H            &hm RSHFT J    &hm RCTRL K &hm LALT L &hm RGUI SQT
+                &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHFT F     &kp G        &kp H            &hm RSHFT J    &hm RCTRL K &hm LALT L &hm RGUI FSLH
                            &kp X      &kp C       &kp V           &kp B        &kp N            &kp M          &kp COMMA  &kp DOT
                                                   &kp ESC   	  &kp SPACE    &lt SYM RET  		&lt NUM BSPC
             >;
