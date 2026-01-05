@@ -60,12 +60,12 @@
 			};
 			capsword {
 				// SPACE + RET
-				key-positions = <30 31>;
+				key-positions = <29 30>;
 				bindings = <&caps_word>;
 			};
 			delete {
 				// RET + BACKSPACE
-				key-positions = <31 32>;
+				key-positions = <30 31>;
 				bindings = <&kp DEL>;
 			};
 	};
